@@ -1,0 +1,38 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Global utility classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Form styles */
+input, button {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Link styles */
+a {
+  color: #764ba2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
